@@ -8,14 +8,14 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : gökhan tunçkale
+title : my logs
 tagline: mathematical engineer
-author :
-  name : Gökhan Tunçkale
+author : gokhan
+  name : gokhan
   email : khantunckale@gmail.com
   github : khantunckale
   twitter : khantunckale
-#  feedburner : 
+  feedburner : 
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
