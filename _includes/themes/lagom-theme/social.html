@@ -1,25 +1,43 @@
 Follow me:
 <div id="stalker">
-  {% if site.theme.social.github %}
-  <a title="{{ site.theme.social.github }} on Github" href="http://github.com/{{ site.theme.social.github }}">
+  {% if site.author.github %}
+  <a title="{{ site.author.github }} on Github" href="http://github.com/{{ site.author.github }}" target="_blank">
     <i class="icon-github-sign"></i>
   </a>
   {% endif %}
 
-  {% if site.theme.social.hacker_news %}
-  <a title="{{ site.theme.social.hacker_news }} on Hacker News" href="http://news.ycombinator.com/user?id={{site.theme.social.hacker_news }}">
+  {% if site.author.facebook %}
+  <a title="{{ site.author.facebook }} on Facebook" href="http://facebook.com/{{ site.author.facebook }}" target="_blank">
+    <i class="icon-facebook-sign"></i>
+  </a>
+  {% endif %}
+
+  {% if site.author.hacker_news %}
+  <a title="{{ site.author.hacker_news }} on Hacker News" href="http://news.ycombinator.com/user?id={{site.author.hacker_news }}" target="_blank">
     <i class="icon-sign-blank"></i>
     <span class="icon-overlay icon-hn">Y</span>
   </a>
   {% endif %}
 
-  {% if site.theme.social.twitter %}
-  <a title="{{ site.theme.social.twitter }} on Twitter" href="http://twitter.com/{{ site.theme.social.twitter }}">
+  {% if site.author.twitter %}
+  <a title="{{ site.author.twitter }} on Twitter" href="http://twitter.com/{{ site.author.twitter }}" target="_blank">
     <i class="icon-twitter-sign"></i>
   </a>
   {% endif %}
 
-  <a title="RSS feed" id="rss" href="/atom.xml">
+  {% if site.author.gplus %}
+  <a title="{{ site.author.gplus }} on Google Plus" href="https://plus.google.com/{{ site.author.gplus }}">
+    <i class="icon-google-plus-sign"></i>
+  </a>
+  {% endif %}
+
+  {% if site.author.linkedin %}
+  <a title="{{ site.author.username }} on LinkedIn" href="https://www.linkedin.com/profile/view?id={{ site.author.linkedin }}">
+    <i class="icon-linkedin-sign"></i>
+  </a>
+  {% endif %}
+
+  <a title="RSS feed" id="rss" href="/atom.xml" target="_blank">
     <i class="icon-rss-sign"></i>
   </a>
 </div>

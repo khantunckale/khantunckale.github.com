@@ -12,9 +12,13 @@ title : my logs.
 tagline: gokhan
 author :
   name : Gökhan Tunçkale
+  username : khantunckale
   email : khantunckale@gmail.com
   github : khantunckale
   twitter : khantunckale
+  facebook : khantunckale
+  gplus : +GökhanTunçkale
+  linkedin : 96159770
   #feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -25,7 +29,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://username.github.io
+production_url : http://khantunckale.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
