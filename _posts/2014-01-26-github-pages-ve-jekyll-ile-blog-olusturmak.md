@@ -3,7 +3,7 @@ layout: post
 title: "GitHub Pages ve Jekyll ile blog olusturmak"
 description: ""
 category: 
-tags: [gem install json, github, github pages, jekyll, jekyll serve, ruby, runner.rb:365]
+tags: [gem install json, github, github pages, jekyll, jekyll serve, ruby]
 ---
 {% include JB/setup %}
 
